@@ -12,8 +12,12 @@ public class Task1 {
         system1.addEmployee(A);
         system1.addEmployee(B);
         system1.addEmployee(C);
+        system1.getEmployees();
+        System.out.println();
         system1.deleteEmployee(B);
         system1.addEmployee(D);
+        system1.getEmployees();
+        System.out.println();
         system1.addEmployee(A);
         system1.getEmployees();
     }
